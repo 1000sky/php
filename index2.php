@@ -1,13 +1,13 @@
-<form action="result.php" method="POST>
+<form action="result.php" method="POST">
       
     
       <label>お名前:</label>
       <input type="text" name="name">
       <br>
       <label>ご希望商品:</label>
-      <input type="radio" name="goods"><label>Aセット</label>
-      <input type="radio" name="goods"><label>Bセット</label>
-      <input type="radio" name="goods"><label>Cセット</label>
+      <input type="radio" name="goods" value="Aセット"><label>Aセット</label>
+      <input type="radio" name="goods" value="Bセット"><label>Bセット</label>
+      <input type="radio" name="goods" value="Cセット"><label>Cセット</label>
       <br>
       <label>注文数:</label>
       <select name="number">
